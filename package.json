@@ -1,0 +1,34 @@
+{
+  "name": "nestjs-app",
+  "version": "1.0.0",
+  "main": "dist/src/main",
+  "scripts": {
+    "build": "nest build",
+    "start:dev": "nest start --watch --debug",
+    "start:prod": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@keyv/redis": "^4.4.0",
+    "@nestjs/cache-manager": "^3.0.1",
+    "@nestjs/common": "^11.1.0",
+    "@nestjs/core": "^11.1.0",
+    "@nestjs/platform-express": "^11.1.0",
+    "cache-manager": "^6.4.3",
+    "keyv": "^5.3.3",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.7",
+    "@nestjs/schematics": "^11.0.5",
+    "@swc/cli": "^0.6.0",
+    "@swc/core": "^1.10.14",
+    "@swc/jest": "^0.2.37",
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "yarn@4.9.1"
+}
